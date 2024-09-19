@@ -1,0 +1,81 @@
+/* Main container for the layout */
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5e6e6;
+}
+
+/* Left side (Logo section) */
+.logo-section {
+  flex: 1;
+  background-color: #8B0000; /* Dark red color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotel-logo {
+  max-width: 60%; /* Adjust the size of the logo */
+}
+
+/* Right side (Login form section) */
+.login-form-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login form styles */
+.login-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4B3A39; /* Dark brown color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
