@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css'; // Import the CSS for styling
+import './login.css'; // Import the CSS for styling
 
-function App() {
+function Login() {
     return (
         <div className="login-container">
             {/* Left side with the logo */}
             <div className="logo-section">
                 <img
-                    src="marison-square-logo-white-1.png"
+                    src="/marison-square-logo-white-1.png"
                     alt="Marison Hotel Logo"
                     className="hotel-logo"
                 />
@@ -33,4 +33,4 @@ function App() {
     );
 }
 
-export default App;
+export default Login;
